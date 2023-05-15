@@ -1,0 +1,15 @@
+.img-card {
+  width: 300px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.container-img {
+  width: 150px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+  }
