@@ -9,7 +9,7 @@ import { Carrito } from './carrito';
   providedIn: 'root'
 })
 export class CarritoService {
-  private urlEndPoint: string = 'http://localhost:8081/api/carrito';
+  private urlEndPoint: string = 'https://marketback-7tw4auhoza-uc.a.run.app/api/carrito';
   private httpHeaders = new HttpHeaders({'Content-type': 'application/json'})
 
   constructor(private http: HttpClient, private router: Router) { }

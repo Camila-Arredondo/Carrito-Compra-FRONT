@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
   providedIn: 'root'
 })
 export class CategoriasService {
-  private urlEndPoint: string = 'http://localhost:8081/api/categoria';
+  private urlEndPoint: string = 'https://marketback-7tw4auhoza-uc.a.run.app/api/categoria';
 
   constructor(private http: HttpClient, private router: Router) { }
 

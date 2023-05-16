@@ -11,7 +11,7 @@ import { Productos } from './productos';
 })
 export class ProductosService {
 
-  private urlEndPoint: string = 'http://localhost:8081/api/productos';
+  private urlEndPoint: string = 'https://marketback-7tw4auhoza-uc.a.run.app/api/productos';
 
   private httpHeaders = new HttpHeaders({'Content-type': 'application/json'})
 

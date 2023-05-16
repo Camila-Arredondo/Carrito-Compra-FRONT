@@ -9,7 +9,7 @@ import Swal from 'sweetalert2';
   providedIn: 'root'
 })
 export class VentasService {
-  private urlEndPoint: string = 'http://localhost:8081/api/ventas';
+  private urlEndPoint: string = 'https://marketback-7tw4auhoza-uc.a.run.app/api/ventas';
 
 
   constructor(private http: HttpClient, private router: Router,) { }
